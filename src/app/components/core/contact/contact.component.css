@@ -1,0 +1,11 @@
+.contact-section {
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 50px;
+}
+
+.icon :hover {
+    display: none;
+}
