@@ -1,0 +1,6 @@
+.banner {
+    background-image: url('https://images.pexels.com/photos/5380677/pexels-photo-5380677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}

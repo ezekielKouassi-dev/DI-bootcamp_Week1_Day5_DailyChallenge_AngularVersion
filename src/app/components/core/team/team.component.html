@@ -1,0 +1,9 @@
+<app-title title="Our Team"></app-title>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3" *ngFor="let teamMember of teamMemberList">
+            <app-team-item imageProfilUrl={{teamMember.profileImg}} name="{{teamMember.name}}"
+            job={{teamMember.job}}></app-team-item>
+        </div>
+    </div>
+</div>

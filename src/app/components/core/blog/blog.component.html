@@ -1,0 +1,10 @@
+<app-title title="Blog"></app-title>
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let blogItem of blogListItem">
+            <app-blog-item cardImage={{blogItem.cardImage}} cardTitle={{blogItem.cardTitle}}
+            cardDescription={{blogItem.cardDescription}} cardTextBtn={{blogItem.cardTextBtn}}>
+        </app-blog-item>
+        </div>
+    </div>
+</div>

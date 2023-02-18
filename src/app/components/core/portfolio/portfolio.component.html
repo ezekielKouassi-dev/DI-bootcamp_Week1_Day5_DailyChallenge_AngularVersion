@@ -1,0 +1,13 @@
+<app-title title="Portfolio"></app-title>
+<div class="container mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4" *ngFor="let portfolioItem of portfolioListLvlOne">
+            <app-portfolio-item portfolioItem={{portfolioItem}}></app-portfolio-item>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-4" *ngFor="let portfolioItem of portfolioListLvlTwo">
+            <app-portfolio-item portfolioItem={{portfolioItem}}></app-portfolio-item>
+        </div>
+    </div>
+</div>
